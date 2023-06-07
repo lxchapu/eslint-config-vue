@@ -1,0 +1,40 @@
+{
+  "name": "@lxchapu/eslint-config-vue",
+  "version": "0.1.0",
+  "description": "Standard eslint config for Vue",
+  "main": "index.js",
+  "private": false,
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "lxchapu",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "prettier": "^2.8.8"
+  },
+  "peerDependencies": {
+    "eslint": "^8.42.0",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-vue": "^9.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxchapu/eslint-config-vue.git"
+  }
+}
